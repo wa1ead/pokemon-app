@@ -1,4 +1,4 @@
-export function Pokemon({ pokemon }) {
+export default function Pokemon({ pokemon }) {
   return (
     <div className="pokemon">
       <div className="pokemon__name">
