@@ -1,6 +1,6 @@
 import { useQuery } from "@apollo/client";
 import Pokemon from "./Pokemon";
-import { GET_POKEMONS } from "../graphql/get-pokemons";
+import { GET_POKEMONS } from "../graphql/GET_POKEMONS";
 
 export default function PokemonsContainer() {
   const { data, loading, error } = useQuery(GET_POKEMONS, {
